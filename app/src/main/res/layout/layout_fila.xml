@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayoutFila"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_idTest"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_suspendido"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_aprobado"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_fechaUltimo"
+            android:layout_width="100dp"
+            android:layout_height="68dp"
+            android:textSize="30sp" />
+
+
+</LinearLayout>

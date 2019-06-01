@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <EditText
+            android:id="@+id/txtEmail"
+            android:layout_width="358dp"
+            android:layout_height="47dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="199dp"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:hint="Introduce email"
+            app:fontFamily="monospace" />
+
+        <EditText
+            android:id="@+id/txtPass"
+            android:layout_width="358dp"
+            android:layout_height="47dp"
+            android:layout_centerInParent="true"
+            android:textSize="18sp"
+            android:hint="Introduce contraseña"
+            app:fontFamily="monospace" />
+
+        <Button
+            android:id="@+id/btnEntrar"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="184dp"
+            android:text="Entrar" />
+
+        <Button
+            android:id="@+id/btnRegistrar"
+            android:layout_width="356dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="113dp"
+            android:text="Registrar Usuario" />
+
+    </RelativeLayout>
+
+</android.widget.LinearLayout>
